@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import 'animate.css';
 
 const DropDown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,11 +34,11 @@ const DropDown = () => {
         {selectedOption || <i className="fa-solid fa-bars text-2xl"></i>}
       </button>
       {isOpen && (
-        <ul className="dropdown-menu border absolute right-8 py-4 bg-gray-400 z-10 rounded">
-          <li onClick={()=>{setIsOpen(false)}} className='hover:bg-slate-300 hover:text-black  cursor-pointer px-8'><Link to='/blog'>Blog</Link></li>
-          <li onClick={()=>{setIsOpen(false)}} className='hover:bg-slate-300 hover:text-black  cursor-pointer px-8'><Link to='/contact'>Contact</Link></li>
-          <li onClick={()=>{setIsOpen(false)}} className='hover:bg-slate-300 hover:text-black  cursor-pointer px-8'><Link to='/project'>Project</Link></li>
-          <li onClick={()=>{setIsOpen(false)}} className='hover:bg-slate-300 hover:text-black  cursor-pointer px-8'><Link to='/location'>Location</Link></li>
+        <ul className="dropdown-menu border-[1px] border-[#b68b03] bg-black absolute my-6 right-0 shadow-3 z-10 xs:w-[100%] xs:max-h-screen rounded-sm animate__animated animate__slideInRight">
+          <li onClick={()=>{setIsOpen(false)}} className='nav-design'><Link to='/blog'>Blog</Link></li>
+          <li onClick={()=>{setIsOpen(false)}} className='nav-design'><Link to='/contact'>Contact</Link></li>
+          <li onClick={()=>{setIsOpen(false)}} className='nav-design'><Link to='/project'>Project</Link></li>
+          <li onClick={()=>{setIsOpen(false)}} className='nav-design'><Link to='/location'>Location</Link></li>
         </ul>
       )}
     </div>

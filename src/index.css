@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* text-slate-400 hover:text-white duration-500 ease-in-out  */
 .nav-link{
-    @apply text-slate-400 hover:text-white duration-500 ease-in-out py-2 font-semibold tracking-wider w-28 text-center;
+    @apply py-2 font-thin tracking-wider w-28 text-center text-gray-600 hover:text-[#b68603] hover:font-bold duration-500 ease-in-out;
 }
+.nav-design{
+    @apply  hover:bg-[#b68603] hover:text-black  cursor-pointer flex justify-center p-4 font-medium
+}
+.banner-design>h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+.body-color{
+    font-family: 'Ubuntu', sans-serif;
+    background:#141414;
+    color: #b68b03;
+    background-image: url(./assets/vertical-grid-5.png);
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    }
+
+
