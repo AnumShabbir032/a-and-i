@@ -40,21 +40,21 @@ function Home() {
 
 
         {/* Banner */}
-        {/* <div className='border w-[100%] h-[620px]'> */}
+        <div className='border w-[100%] h-[620px]'>
           {/* <Carousel /> */}
-          {/* <div className='border-yellow-600 border z-10 bottom-5 left-72 absolute w-[30%] h-[400px]'></div> */}
+          <div className='border-yellow-600 border z-10 bottom-5 left-72 absolute w-[30%] h-[400px]'></div>
 
-          {/* <div className='flex justify-end my-8'>
+          <div className='flex justify-end my-8'>
 
             <div className='border w-[40%] flex flex-col banner-design'>
-              <h1 className='border'>A & I Group of Companies</h1>
-              <p className='border'>Where dreams takes shape, and marketing meets real estate excellence.</p>
+              <h1 className='border heading'>A & I Group of Companies</h1>
+              <p className='border para'>Where dreams takes shape, and marketing meets real estate excellence.</p>
             </div>
-          </div> */}
+          </div>
 
 
 
-        {/* </div> */}
+        </div>
         {/* Banner */}
 
 

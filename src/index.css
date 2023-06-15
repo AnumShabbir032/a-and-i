@@ -5,7 +5,7 @@
 
 /* text-slate-400 hover:text-white duration-500 ease-in-out  */
 .nav-link{
-    @apply py-2 font-thin tracking-wider w-28 text-center text-gray-600 hover:text-[#b68603] hover:font-bold duration-500 ease-in-out;
+    @apply py-2 font-thin  tracking-wider w-28 text-center text-[#989898] hover:text-[#b68603] hover:font-bold duration-500 ease-in-out;
 }
 .nav-design{
     @apply  hover:bg-[#b68603] hover:text-black  cursor-pointer flex justify-center p-4 font-medium
@@ -23,6 +23,8 @@
     background-size: auto;
     background-repeat: repeat;
     background-attachment: scroll;
-    }
-
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+}
 
